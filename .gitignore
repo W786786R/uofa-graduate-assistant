@@ -1,0 +1,90 @@
+# ===========================================
+# Python
+# ===========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===========================================
+# Environment Variables 
+# ===========================================
+.env
+*.env
+
+
+# ===========================================
+# Flutter / Dart
+# ===========================================
+Frontend/.dart_tool/
+Frontend/.flutter-plugins
+Frontend/.flutter-plugins-dependencies
+Frontend/build/
+Frontend/.packages
+Frontend/.pub-cache/
+Frontend/.pub/
+Frontend/ios/Pods/
+Frontend/ios/.symlinks/
+Frontend/ios/Flutter/Flutter.framework
+Frontend/ios/Flutter/Flutter.podspec
+Frontend/android/.gradle/
+Frontend/android/local.properties
+Frontend/android/key.properties
+Frontend/android/app/debug/
+Frontend/android/app/profile/
+Frontend/android/app/release/
+*.iml
+
+# ===========================================
+# Databases 
+# ===========================================
+Backend/chat.db
+Backend/chroma_db/
+
+# ===========================================
+# IDE / Editor
+# ===========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# ===========================================
+# Logs & temp
+# ===========================================
+*.log
+logs/
+tmp/
+temp/
+
+# ===========================================
+# Build artifacts
+# ===========================================
+*.apk
+*.aab
+*.ipa
+*.exe
+*.dll
+*.dylib
+
+# ===========================================
+# Large model files 
+# ===========================================
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.onnx
